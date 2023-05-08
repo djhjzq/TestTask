@@ -1,8 +1,11 @@
-# TestTask
-# TestTask
+
+# TestTask 
 Simple Spring Boot java project with the console interface for university.
 
 Tech: java17, Spring boot 3.0.2, Spring shell, Spring data jpa, h2db.
+
+On memory db working, for testing you needed only to download repo and start it in local.
+Use the next command to test it or create yours on proposal test data.
 -----------------------------------------------
 
 Try it with query: 
