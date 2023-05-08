@@ -1,4 +1,7 @@
 package com.group.testtask.repo;
 
-public interface DegreeRepository extends org.springframework.data.jpa.repository.JpaRepository<com.group.testtask.data.Degree, java.lang.Long> {
+import com.group.testtask.data.Degree;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface DegreeRepository extends JpaRepository<Degree, Long> {
 }

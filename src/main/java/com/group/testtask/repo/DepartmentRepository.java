@@ -1,4 +1,16 @@
 package com.group.testtask.repo;
 
-public interface DepartmentRepository extends org.springframework.data.jpa.repository.JpaRepository<com.group.testtask.data.Department, java.lang.Long> {
+import com.group.testtask.data.Department;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface DepartmentRepository extends JpaRepository<Department, Long> {
+
+    Optional<Department> findByName(String name);
+
+
+
+
+
 }
